@@ -1,3 +1,43 @@
 .header{
-    border-bottom: solid 1px white;
+    border: solid 3px black;
+    background-color: #602828;
+    border-radius: 20px;
+}
+#logo{
+    border-right: 3px solid black;
+    width: 150px;
+    border-radius: 2px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: -15px;
+}
+#titel{
+    position: absolute;
+    top: 15px;
+    left: 900px;
+    font-family: cursive;
+    color: #F1F1F1;
+}
+a{
+    color: white;
+    font-family: cursive;
+    font-size: x-large;
+}
+#bestellink{
+    position: absolute;
+    top: 40px;
+    right: 170px;
+}
+#menulink{
+    position: absolute;
+    top: 40px;
+    right: 300px
+}
+#infolink{
+    position: absolute;
+    top: 40px;
+    right: 390px;
+}
+a:hover{
+    color: #a8a8a8;
 }
