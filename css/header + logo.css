@@ -22,6 +22,7 @@ a{
     color: white;
     font-family: cursive;
     font-size: x-large;
+    text-decoration: none;
 }
 #bestellink{
     position: absolute;
