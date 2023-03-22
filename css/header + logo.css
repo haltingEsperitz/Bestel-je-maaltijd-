@@ -7,7 +7,7 @@
 }
 #logo{
     border-right: 3px solid black;
-    width: 150px;
+    width: 135px;
     border-radius: 2px;
     margin-left: 20px;
     margin-top: 5px;
@@ -23,7 +23,7 @@
     font-weight: bolder;
     width: 500px;
 }
-a{
+.header a{
     color: white;
     font-family: cursive;
     font-size: x-large;
@@ -44,7 +44,7 @@ a{
     top: 40px;
     right: 390px;
 }
-a:hover{
+.header a:hover{
     color: #a8a8a8;
 }
 #titel:hover{
@@ -53,7 +53,7 @@ a:hover{
 .banner{
     z-index: -1;
     position: absolute;
-    top: -150px;
+    top: -10px;
     left: 0px;
 }
 .banner img{

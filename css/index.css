@@ -31,13 +31,25 @@ body{
 .content3{
     background-color: #FCEBB6;
     position: relative;
-    top: 348px;
-    margin-right: -10px;
+    top: 200px;
+    margin-right: -20px;
     width: 1025px;
-    z-index: 0;
+    z-index: 0.5;
     float: right;
     text-align: center;
+    border-top: black 2px solid;
 }
 p{
     font-family: arial;
+}
+a{
+    color: #8a3a3a;
+    font-family: cursive;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color: #602828;
+    text-decoration: underline;
 }
