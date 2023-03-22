@@ -2,14 +2,42 @@ body{
     background-color: #F1F1F1;
 }
 .content1{
-    background-color: #FCEBB6;
+
     text-align: center;
     position: fixed;
-    top: 202px;
+    top: 200px;
     width: 2050px;
     margin-left: -10px;
     font-family: cursive;
+    padding-bottom: 50px;
+
+    color: white;
 }
 .content1 h1{
     font-weight: bold;
+}
+.content2{
+    background-color: #FCEBB6;
+    position: relative;
+    top: 346px;
+    width: 1025px;
+    margin-left: -10px;
+    border-top: black solid 2px;
+    border-right: 2px black solid;
+    float: left;
+    z-index: 1;
+    text-align: center;
+}
+.content3{
+    background-color: #FCEBB6;
+    position: relative;
+    top: 348px;
+    margin-right: -10px;
+    width: 1025px;
+    z-index: 0;
+    float: right;
+    text-align: center;
+}
+p{
+    font-family: arial;
 }
