@@ -17,27 +17,30 @@ body{
     font-weight: bold;
 }
 .content2{
-    background-color: #FCEBB6;
+    background-color: #F1F1F1;
     position: relative;
     top: 346px;
-    width: 1025px;
+    width: 2050px;
     margin-left: -10px;
-    border-top: black solid 2px;
-    border-right: 2px black solid;
+
     float: left;
     z-index: 1;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .content3{
-    background-color: #FCEBB6;
+    background-color: #F1F1F1;
     position: relative;
-    top: 200px;
+    top: 346px;
     margin-right: -20px;
-    width: 1025px;
+    width: 2050px;
     z-index: 0.5;
     float: right;
     text-align: center;
-    border-top: black 2px solid;
+
+
+    padding-bottom: 20px;
 }
 p{
     font-family: arial;
@@ -52,4 +55,8 @@ a{
 a:hover{
     color: #602828;
     text-decoration: underline;
+}
+.content2 hr{
+margin-left: 300px;
+margin-right: 300px;
 }
