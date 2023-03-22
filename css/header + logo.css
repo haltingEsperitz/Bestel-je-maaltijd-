@@ -1,7 +1,9 @@
 .header{
     border: solid 3px black;
     background-color: #602828;
-    border-radius: 20px;
+    border-radius: 10px;
+    height: 105px;
+    margin: -10px;
 }
 #logo{
     border-right: 3px solid black;
@@ -12,11 +14,14 @@
     margin-bottom: -15px;
 }
 #titel{
-    position: absolute;
-    top: 15px;
-    left: 900px;
+    position: relative;
+    top: -30px;
+    left: 475px;
     font-family: cursive;
     color: #F1F1F1;
+    font-size: xx-large;
+    font-weight: bolder;
+    width: 500px;
 }
 a{
     color: white;
@@ -41,4 +46,18 @@ a{
 }
 a:hover{
     color: #a8a8a8;
+}
+#titel:hover{
+    color: #a8a8a8;
+}
+.banner{
+    z-index: -1;
+    position: absolute;
+    top: -800px;
+    left: 0px;
+}
+.banner img{
+    width: 2300px;
+    height: 1000px;
+    border-bottom: 2px solid black;
 }

@@ -1,3 +1,15 @@
 body{
     background-color: #F1F1F1;
 }
+.content1{
+    background-color: #FCEBB6;
+    text-align: center;
+    position: fixed;
+    top: 202px;
+    width: 2050px;
+    margin-left: -10px;
+    font-family: cursive;
+}
+.content1 h1{
+    font-weight: bold;
+}
