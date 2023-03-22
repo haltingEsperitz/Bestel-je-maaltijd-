@@ -4,7 +4,7 @@ body{
 .content1{
 
     text-align: center;
-    position: fixed;
+    position: relative;
     top: 200px;
     width: 2050px;
     margin-left: -10px;
@@ -35,12 +35,12 @@ body{
     top: 346px;
     margin-right: -20px;
     width: 2050px;
-    z-index: 0.5;
+    z-index: 1;
     float: right;
     text-align: center;
 
 
-    padding-bottom: 20px;
+
 }
 p{
     font-family: arial;
@@ -56,7 +56,13 @@ a:hover{
     color: #602828;
     text-decoration: underline;
 }
-.content2 hr{
-margin-left: 300px;
-margin-right: 300px;
+hr{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.openingstijden{
+    background-color: #F1F1F1;
+    position: relative;
+    top: 500px;
+    z-index: 0
 }
