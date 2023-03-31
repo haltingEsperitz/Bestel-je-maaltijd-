@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1 {
+    color: #FCEBB6 ;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #602828;
+    border-bottom: 5px solid #5E412F;
+    margin-top: 5px;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+  }
+  .meal {
+    background-color: #FCEBB6;
+    border: 1px solid #5E412F;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 65px;
+    width: 200px;
+    text-align: center;
+    transition: 0.3s;
+  }
+  .meal:hover {
+    transform: translateY(-5px);
+  }
+  .meal img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  .meal h2 {
+    color: #602828;
+    margin: 15px 0;
+  }
+  .meal p {
+    color: #4D7D3D;
+    margin: 5px 0;
+  }
+  .meal button {
+    background-color: #602828;
+    color: #F1F1F1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .meal button:hover {
+    background-color: #4D7D3D;
+  }
+  .order-summary {
+    display: none;
+    background-color: #FCEBB6;
+    border: 1px solid #5E412F;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .order-summary h3 {
+    color: #602828;    }
+ 
+    .header {
+    background-color: #602828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  .header a {
+    color: #F1F1F1;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  .header a:hover {
+    color: #FCEBB6;
+  }
+  .continue-btn {
+    background-color: #4D7D3D;
+    color: #F1F1F1;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  .continue-btn:hover {
+    background-color: #602828;
+  }
+  
+ 
